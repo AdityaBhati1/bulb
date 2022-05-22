@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<style type="text/css">
+		body{
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			background: url('back.jpg');
+			background-size: cover;
+		}
+		button{
+			width: 100px;
+			height: 50px;
+			background: #121212;
+			margin-top: 260px;
+			border: none;
+			font-weight: bolder;
+			font-family: copperplate gothic;
+			color: rgb(250, 250, 250);
+			border-radius: 50px;
+		}
+		img{
+			margin-top: 90px;
+			transition: 0.9s;
+		}
+
+	</style>
+</head>
+<body>
+	<div>
+	<button onclick="getElementById('img').src ='pic_bulbon.png' ">.   ON   .</button>
+<img src="pic_bulboff.png" id="img" width="200px">
+<button onclick="getElementById('img').src ='pic_bulboff.png' ">.   OFF   .</button>
+</body>
+</html>
